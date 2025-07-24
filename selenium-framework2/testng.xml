@@ -1,0 +1,21 @@
+<suite name="Login Browser Suite" parallel="tests" thread-count="3">
+
+  <test name="LoginChrome">
+    <classes>
+      <class name="com.framework.testcases.LoginTestChrome"/>
+    </classes>
+  </test>
+
+  <test name="LoginEdge">
+    <classes>
+      <class name="com.framework.testcases.LoginTestEdge"/>
+    </classes>
+  </test>
+
+  <test name="LoginFirefox">
+    <classes>
+      <class name="com.framework.testcases.LoginTestFirefox"/>
+    </classes>
+  </test>
+
+</suite>
